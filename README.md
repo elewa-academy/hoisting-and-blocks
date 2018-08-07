@@ -42,7 +42,7 @@ null;
 [pytut](https://goo.gl/AyNdoR) 
 
 0. Nothing happens in the __creation phase__, there are no "var" variables or functions to hoist.
-1. JS declares & defines "outer_let" all at once.  
+1. JS _declares_ & _defines_ "outer_let" in a single statement.
 2. The new block scope is created, with "inner_let" declared but in the __temporal dead zone__. ("null" is there for visual clarity in pytut.)
 3. "inner_let" is defined as "block 1". Both "outer_let" and "inner_let" are _visible_ in the block scope.
 4. The block scope is destroyed, "inner_let" no longer exists. ("null" is there for visual clarity in pytut.)
