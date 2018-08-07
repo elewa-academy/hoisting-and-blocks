@@ -43,10 +43,10 @@ null;
 
 0. Nothing happens in the __creation phase__, there are no "var" variables or functions to hoist.
 1. JS _declares_ & _defines_ "outer_let" in a single statement.
-2. The new block scope is created, with "inner_let" declared but in the __temporal dead zone__. ("null" is there for visual clarity in pytut.)
-3. "inner_let" is defined as "block 1". Both "outer_let" and "inner_let" are _visible_ in the block scope.
-4. The block scope is destroyed, "inner_let" no longer exists. ("null" is there for visual clarity in pytut.)
-5. Final state.  "outer_let" is still there, it was declared in the global scope.  "inner_let" is no longer there, it was declared in the block scope and was not hoisted.
+2. The new block scope is created, with "inner_let" declared but in the __temporal dead zone__. ("null" is a placeholder.)
+3. "inner_let" is _defined_ as "block 1". Both "outer_let" and "inner_let" are _visible_ in the block scope.
+4. The block scope is destroyed, "inner_let" no longer exists. ("null" is a placeholder.)
+5. Final state.  "outer_let" is still there, it was _declared_ in the global scope.  "inner_let" is no longer there, it was _declared_ in the block scope and was not _hoisted_.
 
 
 ___
