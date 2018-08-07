@@ -57,9 +57,9 @@ ___
 
 [block scope - snippet study](https://github.com/elewa-academy/block-scope-let-vs-var#index)
 
-* Creation vs Execution phases:
-  * _Creation phase_ is what happens before the first line is executed.  Mostly just hoisting. You can see what happened in the creation phase, it's what PythonTutor displays before you click the __forward__ button for the first time.
-  * _Execution phase_ is everything that happens after the creation phase.
+Creation vs Execution phases:
+* _Creation phase_ is what happens before the first line is executed.  Mostly just hoisting. You can see what happened in the creation phase, it's what PythonTutor displays before you click the __forward__ button for the first time.
+* _Execution phase_ is everything that happens after the creation phase.
 
 temporal dead zone:
 * only applies to "let" variables declared in blocks
